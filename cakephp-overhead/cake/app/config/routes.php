@@ -26,7 +26,7 @@
 	
 	Router::connect('/template.php', array('controller' => 'echo', 'action' => 'template'));
 
-	Router::connect('/redirect.php', array('controller' => 'echo', 'action' => 'redirect'));
+	Router::connect('/redirect.php', array('controller' => 'echo', 'action' => 'doRedirect'));
 
 	Router::connect('/rewrite/*', array('controller' => 'echo', 'action' => 'rewrite'));
 	

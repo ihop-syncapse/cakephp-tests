@@ -28,7 +28,7 @@ class EchoController extends AppController {
 	}
 	
 	function doRedirect() {
-		$this->redirect('/echo.php');
+		$this->redirect('/echo.php', null, false);
 	}
 	
 }
